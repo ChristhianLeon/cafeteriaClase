@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Registro de usuarios</h1>
+    <nav>
+        <a href="/index.html">Página Principal</a>
+    </nav>
+    <hr>
+    <form action="#">
+        <label for="usuario">Ingrese su nombre</label><br>
+        <input id="usuario" type="text" placeholder="Nombre, Apellido" required size="30">
+        <br><br>
+        <label for="email">Ingrese su email</label><br>
+        <input id="email" type="email" placeholder="algo@algo.com" required size="30">
+        <br><br>
+        <label for="contrasenia">Ingrese su contraseña</label><br>
+        <input type="password" id="contrasenia" required>
+        <br><br>
+        <label for="edad">Ingrese su edad</label><br>
+        <input type="number" id="edad" required>        
+        <br><br>        
+        <label for="fechaNacimiento">Ingrese su fecha de nacimiento</label><br>
+        <input type="date" id="fechaNacimiento" required>
+        <br><br>
+        <p>Género</p>
+        <input type="radio" id="maculino" name="genero">
+        <label for="maculino">Masculino</label>
+        <input type="radio" id="fem" name="genero">
+        <label for="fem">Femenino</label>
+        <input type="radio" id="otro" name="genero">
+        <label for="otro">Otro</label>
+        <br><br>
+        <label for="ciudad">Ciudad</label>
+        <select name="ciudad" id="ciudad">
+            <option value="uio">Quito</option>
+            <option value="rio">Riobamba</option>
+            <option value="cue">Cuenca</option>
+            <option value="iba">Ibarra</option>
+        </select>  
+        <br><br>
+        <label for="coment">Comentario</label>      
+        <textarea name="comentario" id="coment" rows="5" cols="40"></textarea>
+    </form>
+</body>
+</html>
